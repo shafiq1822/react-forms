@@ -8,7 +8,7 @@ const ControlledInputs = () => {
     const submitHandler = (e) => {
         e.preventDefault();
         if(username && email){
-            const person = { id: uuidv4(), username: username, email: email };
+            const person = { id: uuidv4(), username, email };
 
             console.log(person);
 
@@ -52,4 +52,4 @@ const ControlledInputs = () => {
   );
 }
 
-export default ControlledInputs
+export default ControlledInputs;

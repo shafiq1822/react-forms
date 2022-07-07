@@ -22,7 +22,7 @@ body{
   border-radius: 5px;
 }
 
-#username, #email{
+#username, #email, #age{
   width: 20rem;
   outline: none;
   padding: 3px;
